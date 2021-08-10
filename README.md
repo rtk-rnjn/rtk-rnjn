@@ -9,7 +9,7 @@
 
 - 🌱 I’m currently learning **MongoDB, PostgreSQL**
 
-- 🤝 I’m looking for help with [NukeBot](https://github.com/ritik0ranjan/NukeBot)
+- 🤝 I’m looking for help with [Parrot](https://github.com/ritik0ranjan/Parrot)
 
 - 👨‍💻 All of my projects are available at [https://replit.com/@rtkrnjn/](https://replit.com/@rtkrnjn/)
 
