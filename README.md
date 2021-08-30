@@ -11,8 +11,6 @@
 
 - 🤝 I’m looking for help with [Parrot](https://github.com/ritik0ranjan/Parrot)
 
-- 👨‍💻 All of my projects are available at [https://replit.com/@rtkrnjn/](https://replit.com/@rtkrnjn/)
-
 - 💬 Ask me about **Replit, Heroku, or any other Python Help**
 
 - 📫 How to reach me **ritik0ranajan@gmail.com**
