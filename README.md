@@ -15,7 +15,7 @@
 
 - 📫 How to reach me **ritik0ranajan@gmail.com**
 
-- ⚡ Fun fact **I am full of lust**
+<a href="https://discord.gg/NEyJxM7G7f" target="blank"><img src="https://discord.c99.nl/widget/theme-1/741614468546560092.png"></a>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
