@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Ritik Ranjan</h1>
 <h3 align="center">A passionate small Python Developer</h3>
 
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=ritik0ranjan&label=Profile%20views&color=0e75b6&style=flat" alt="ritik0ranjan" /> </p>
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=rtk-rnjn&label=Profile%20views&color=0e75b6&style=flat" alt="rtk-rnjn" /> </p>
 
-<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ritik0ranjan" alt="ritik0ranjan" /></a> </p>
+<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=rtk-rnjn" alt="rtk-rnjn" /></a> </p>
 
 - 🔭 I’m currently working on **Discord API**
 
