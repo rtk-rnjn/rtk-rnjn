@@ -11,8 +11,6 @@
 
 - 🤝 I’m looking for help with [Parrot](https://github.com/ritik0ranjan/Parrot)
 
-- 📫 How to reach me **ritik0ranajan@gmail.com**
-
 <a href="https://discord.gg/NEyJxM7G7f" target="blank"><img src="https://discord.c99.nl/widget/theme-1/741614468546560092.png"></a>
 
 <h3 align="left">Languages and Tools:</h3>
