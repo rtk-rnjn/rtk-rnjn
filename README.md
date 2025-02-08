@@ -18,19 +18,15 @@
     </a>
 </p>
 
-- 🔭 I’m currently working on [Data Structures and Algorithms](https://github.com/rtk-rnjn/algorithms)
+- 🔭 I’m currently working on Swift Language and iOS Development
 
-- 🌱 I’m currently learning **Ubuntu (Linux)**
+- 🌱 I’m currently learning **Swift 6**
 
 - 👯 I’m looking to collaborate on [Data Structures and Algorithms](https://github.com/rtk-rnjn/algorithms)
 
-- 🤝 I’m looking for help with [Web scrapping using Selenium](https://github.com/rtk-rnjn/GU-ICloudEMS-API)
+<!-- - 🤝 I’m looking for help with [Web scrapping using Selenium](https://github.com/rtk-rnjn/GU-ICloudEMS-API) -->
 
 - 👨‍💻 All of my projects are available at [https://github.com/rtk-rnjn?tab=repositories](https://github.com/rtk-rnjn?tab=repositories)
-
-- 💬 Ask me about **Python, C, C++, MongoDB, SQLite**
-
-- 📫 How to reach me **ritik0ranjan@gmail.com**
 
 - ⚡ Fun fact **I am coffee nerd**
 
