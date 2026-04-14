@@ -18,18 +18,6 @@
     </a>
 </p>
 
-- 🔭 I’m currently working on Swift Language and iOS Development
-
-- 🌱 I’m currently learning **Swift 6**
-
-- 👯 I’m looking to collaborate on [Data Structures and Algorithms](https://github.com/rtk-rnjn/algorithms)
-
-<!-- - 🤝 I’m looking for help with [Web scrapping using Selenium](https://github.com/rtk-rnjn/GU-ICloudEMS-API) -->
-
-- 👨‍💻 All of my projects are available at [https://github.com/rtk-rnjn?tab=repositories](https://github.com/rtk-rnjn?tab=repositories)
-
-- ⚡ Fun fact **I am coffee nerd**
-
 <h3 align="left">Connect with me:</h3>
 <p align="left">
     <a href="https://twitter.com/rtk_rnjn" target="blank">
