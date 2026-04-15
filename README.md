@@ -19,32 +19,24 @@ Building projects, automations, and experiments. This README refreshes itself wi
 ## Snapshot
 
 - Profile: [https://github.com/rtk-rnjn](https://github.com/rtk-rnjn)
-- Last update: 2026-04-15 14:27 UTC
-- Moon phase right now: 🌙 (98.33% through the lunar cycle)
-- Year progress (2026): 28.66% `███████░░░░░░░░░░░░░░░░░`
+- Last update: 2026-04-15 17:10 UTC
+- Moon phase right now: 🌙 (98.72% through the lunar cycle)
+- Year progress (2026): 28.69% `███████░░░░░░░░░░░░░░░░░`
 
 ## Weather Feed
 
 <details>
 <summary>Click to expand weather details</summary>
-<img src="generated/weather_card.png" alt="Weather Card" />
 
-- City: Greater Noida
-- Condition: Clear sky
-- Temperature: 34.1 C
+- Weather feed status: unavailable ('OPEN_WEATHER_MAP_KEY' environment variable is not set. Please set it to your OpenWeatherMap API key.)
 </details>
 
 ## News Feed
 
 <details>
 <summary>Click to expand news details</summary>
-<img src="generated/news_card_1.png" alt="News Card 1" width="400" />
-<hr>
-<img src="generated/news_card_2.png" alt="News Card 2" width="400" />
-<hr>
-<img src="generated/news_card_3.png" alt="News Card 3" width="400" />
-<hr>
 
+- News feed status: unavailable ('NEWS_API_KEY' environment variable is not set. Please set it to your News API key.)
 </details>
 
 ## Automation
