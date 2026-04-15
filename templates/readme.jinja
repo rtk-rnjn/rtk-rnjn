@@ -55,6 +55,7 @@ Building projects, automations, and experiments. This README refreshes itself wi
 {% if news_items %}
 {% for item in news_items %}
 <img src="{{ item.image_url }}" alt="News Image {{ loop.index }}" width="200" />
+<hr>
 {% endfor %}
 {% elif news_error %}
 - News feed status: unavailable ({{ news_error }})
