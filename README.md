@@ -19,7 +19,7 @@ Building projects, automations, and experiments. This README refreshes itself wi
 ## Snapshot
 
 - Profile: [https://github.com/rtk-rnjn](https://github.com/rtk-rnjn)
-- Last update: 2026-04-15 14:24 UTC
+- Last update: 2026-04-15 14:27 UTC
 - Moon phase right now: 🌙 (98.33% through the lunar cycle)
 - Year progress (2026): 28.66% `███████░░░░░░░░░░░░░░░░░`
 
@@ -38,11 +38,11 @@ Building projects, automations, and experiments. This README refreshes itself wi
 
 <details>
 <summary>Click to expand news details</summary>
-<img src="generated/news_card_1.png" alt="News Card 1" width="350" />
+<img src="generated/news_card_1.png" alt="News Card 1" width="400" />
 <hr>
-<img src="generated/news_card_2.png" alt="News Card 2" width="350" />
+<img src="generated/news_card_2.png" alt="News Card 2" width="400" />
 <hr>
-<img src="generated/news_card_3.png" alt="News Card 3" width="350" />
+<img src="generated/news_card_3.png" alt="News Card 3" width="400" />
 <hr>
 
 </details>
