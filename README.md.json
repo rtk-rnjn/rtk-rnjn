@@ -1,0 +1,41 @@
+{
+    "name": "Ritik",
+    "github_username": "rtk-rnjn",
+    "github_profile_url": "https://github.com/rtk-rnjn",
+    "generated_at": "2026-04-15 14:13 UTC",
+    "moon_emoji": "🌙",
+    "moon_percent": "98.30",
+    "year": 2026,
+    "year_percent": "28.66",
+    "year_progress_bar": "███████░░░░░░░░░░░░░░░░░",
+    "news_cards": [
+        "generated/news_card_1.png",
+        "generated/news_card_2.png",
+        "generated/news_card_3.png"
+    ],
+    "news_items": [
+        {
+            "title": "Millions of people are pretending to be AI chatbots — for fun - NPR",
+            "url": "https://www.npr.org/2026/04/14/nx-s1-5776842/ai-chatbot-comedy-ben-palmer-chatgpt",
+            "source": "NPR"
+        },
+        {
+            "title": "‘Marathon’ Testing A Battle Royale-ish Mode, An Offering To Casuals - Forbes",
+            "url": "https://www.forbes.com/sites/paultassi/2026/04/14/marathon-testing-a-battle-royale-ish-mode-an-offering-to-casuals/",
+            "source": "Forbes"
+        },
+        {
+            "title": "Ask the Developer Vol. 21: Tomodachi Life: Living the Dream — Part 1 - Nintendo",
+            "url": "https://www.nintendo.com/us/whatsnew/ask-the-developer-vol-21-tomodachi-life-living-the-dream-part-1/",
+            "source": "Nintendo.com"
+        }
+    ],
+    "news_error": null,
+    "weather_card": "generated/weather_card.png",
+    "weather_details": {
+        "city": "Greater Noida",
+        "condition": "Clear sky",
+        "temperature": "34.1 C"
+    },
+    "weather_error": null
+}

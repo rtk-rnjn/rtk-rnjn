@@ -14,14 +14,14 @@
     </p>
 </center>
 
-I was getting bored of the usual README files and wanted to create something dynamic that reflects real-time information. So, I built a Python script that generates this README every 4 hours with the latest weather updates, news headlines, moon phase, and year progress.
+Building projects, automations, and experiments. This README refreshes itself with live signals.
 
 ## Snapshot
 
 - Profile: [https://github.com/rtk-rnjn](https://github.com/rtk-rnjn)
-- Last update: 2026-04-15 14:07 UTC
-- Moon phase right now: 🌙 (98.29% through the lunar cycle)
-- Year progress (2026): 28.65%
+- Last update: 2026-04-15 14:13 UTC
+- Moon phase right now: 🌙 (98.30% through the lunar cycle)
+- Year progress (2026): 28.66%
 
 `███████░░░░░░░░░░░░░░░░░`
 
@@ -31,9 +31,9 @@ I was getting bored of the usual README files and wanted to create something dyn
 <summary>Click to expand weather details</summary>
 ![Weather Card](generated/weather_card.png)
 
-- City: Bengaluru
-- Condition: Scattered clouds
-- Temperature: 32.5 C
+- City: Greater Noida
+- Condition: Clear sky
+- Temperature: 34.1 C
 </details>
 
 ## News Feed

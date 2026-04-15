@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import logging
 import os
 from datetime import datetime, timezone
@@ -123,8 +124,11 @@ def build_readme() -> None:
 
     context = _build_context()
     rendered = template.render(**context)
+    json_context = json.dumps(context, indent=4, ensure_ascii=False)
+    logger.debug("Context for README generation:\n%s", json_context)
 
     Path("README.md").write_text(rendered.rstrip() + "\n", encoding="utf-8")
+    Path("README.md.json").write_text(json_context, encoding="utf-8")
     logger.info("README.md generated successfully")
 
 
