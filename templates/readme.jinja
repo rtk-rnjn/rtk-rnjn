@@ -21,9 +21,7 @@ Building projects, automations, and experiments. This README refreshes itself wi
 - Profile: [{{ github_profile_url }}]({{ github_profile_url }})
 - Last update: {{ generated_at }}
 - Moon phase right now: {{ moon_emoji }} ({{ moon_percent }}% through the lunar cycle)
-- Year progress ({{ year }}): {{ year_percent }}%
-
-`{{ year_progress_bar }}`
+- Year progress ({{ year }}): {{ year_percent }}% `{{ year_progress_bar }}`
 
 ## Weather Feed
 
@@ -48,16 +46,12 @@ Building projects, automations, and experiments. This README refreshes itself wi
 <summary>Click to expand news details</summary>
 {% if news_cards %}
 {% for card in news_cards %}
-<img src="{{ card }}" alt="News Card {{ loop.index }}" />
+<img src="{{ card }}" alt="News Card {{ loop.index }}" width="150" />
+<hr>
 {% endfor %}
 {% endif %}
 
-{% if news_items %}
-{% for item in news_items %}
-<img src="{{ item.image_url }}" alt="News Image {{ loop.index }}" width="200" />
-<hr>
-{% endfor %}
-{% elif news_error %}
+{% if news_error %}
 - News feed status: unavailable ({{ news_error }})
 {% endif %}
 </details>
