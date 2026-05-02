@@ -19,9 +19,9 @@ Building projects, automations, and experiments. This README refreshes itself wi
 ## Snapshot
 
 - Profile: [https://github.com/rtk-rnjn](https://github.com/rtk-rnjn)
-- Last update: 2026-05-02 19:49 UTC
-- Moon phase right now: 🌖 (56.66% through the lunar cycle)
-- Year progress (2026): 33.38% `████████░░░░░░░░░░░░░░░░`
+- Last update: 2026-05-02 20:33 UTC
+- Moon phase right now: 🌖 (56.76% through the lunar cycle)
+- Year progress (2026): 33.39% `████████░░░░░░░░░░░░░░░░`
 
 ## Weather Feed
 
@@ -30,8 +30,8 @@ Building projects, automations, and experiments. This README refreshes itself wi
 <img src="generated/weather_card.png" alt="Weather Card" />
 
 - City: Greater Noida
-- Condition: Broken clouds
-- Temperature: 31.5 C
+- Condition: Scattered clouds
+- Temperature: 30.8 C
 </details>
 
 ## News Feed
