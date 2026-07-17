@@ -19,9 +19,9 @@ Building projects, automations, and experiments. This README refreshes itself wi
 ## Snapshot
 
 - Profile: [https://github.com/rtk-rnjn](https://github.com/rtk-rnjn)
-- Last update: 2026-07-16 23:52 UTC
-- Moon phase right now: 🌒 (11.20% through the lunar cycle)
-- Year progress (2026): 53.97% `█████████████░░░░░░░░░░░`
+- Last update: 2026-07-17 01:56 UTC
+- Moon phase right now: 🌒 (11.50% through the lunar cycle)
+- Year progress (2026): 53.99% `█████████████░░░░░░░░░░░`
 
 ## Weather Feed
 
@@ -31,7 +31,7 @@ Building projects, automations, and experiments. This README refreshes itself wi
 
 - City: Greater Noida
 - Condition: Broken clouds
-- Temperature: 34.2 C
+- Temperature: 35.3 C
 </details>
 
 ## News Feed
@@ -42,6 +42,7 @@ Building projects, automations, and experiments. This README refreshes itself wi
 <hr>
 <img src="generated/news_card_2.png" alt="News Card 2" width="400" />
 <hr>
+<img src="generated/news_card_3.png" alt="News Card 3" width="400" />
+<hr>
 
-- News feed status: unavailable ('NoneType' object has no attribute 'split')
 </details>
