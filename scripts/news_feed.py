@@ -168,13 +168,15 @@ def _load_font(size: int) -> ImageFont.FreeTypeFont | ImageFont.ImageFont:
         logger.warning("DejaVuSans.ttf not found, falling back to default font (size=%d)", size)
         return ImageFont.load_default()
 
-
+def average_color(img: Image.Image):
+    return img.resize((1, 1), Image.Resampling.BOX).getpixel((0, 0))
+    
 def create_news_card(article: Article, output: str = "generated/news_card.png") -> str:
     title = article.get("title", "No Title")
     source = article["source"]["name"]
     logger.info("Creating news card for article: %r (source: %s)", title, source)
 
-    WIDTH, HEIGHT = 800, 450
+    WIDTH, HEIGHT = 720, 450
     PADDING = 20
     IMAGE_HEIGHT = 240
 
@@ -184,11 +186,17 @@ def create_news_card(article: Article, output: str = "generated/news_card.png") 
     # top image
     img = _download_image(article.get("urlToImage", ""))
     if img is not None:
-        img = img.resize((WIDTH, IMAGE_HEIGHT))
-        card.paste(img, (0, 0))
+        img.thumbnail((WIDTH, IMAGE_HEIGHT), Image.Resampling.LANCZOS)
+        x = (WIDTH - img.width) // 2
+        y = (IMAGE_HEIGHT - img.height) // 2
+
+        draw.rectangle((0, 0, WIDTH, IMAGE_HEIGHT), fill=average_color(img))
+
+        card.paste(img, (x, y))
+
         logger.debug("Article image pasted onto card")
     else:
-        draw.rectangle((0, 0, WIDTH, IMAGE_HEIGHT), fill=(40, 40, 40))
+        draw.rectangle((0, 0, WIDTH, IMAGE_HEIGHT), fill=(50, 50, 50))
         logger.debug("Using placeholder rectangle (no article image)")
 
     # fonts
@@ -232,7 +240,7 @@ if __name__ == "__main__":
         news = fetch_top_headlines(category=Category.TECHNOLOGY)
         articles = news["articles"]
 
-        for i, article in enumerate(articles[:3]):
+        for i, article in enumerate(articles[:1]):
             output_path = f"generated/news_card_{i+1}.png"
             create_news_card(article, output=output_path)
 
