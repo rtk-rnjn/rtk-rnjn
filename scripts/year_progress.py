@@ -35,4 +35,8 @@ def calculate_year_progress(now: datetime | None = None) -> YearProgress:
 def progress_bar(percent: float, *, length: int = 20) -> str:
     clamped = max(0.0, min(percent, 100.0))
     filled = round((clamped / 100) * length)
-    return "█" * filled + "░" * (length - filled)
+
+    FULL_BLOCK = "\N{FULL BLOCK}"
+    LIGHT_SHADE = "\N{LIGHT SHADE}"
+
+    return FULL_BLOCK * filled + LIGHT_SHADE * (length - filled)

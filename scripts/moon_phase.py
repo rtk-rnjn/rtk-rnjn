@@ -1,5 +1,6 @@
 import datetime
 
+PHASE_LENGTH = 29.530588853
 
 def calculate_phase(now: datetime.datetime | None = None) -> float:
     now = now or datetime.datetime.now(tz=datetime.timezone.utc)
@@ -9,7 +10,6 @@ def calculate_phase(now: datetime.datetime | None = None) -> float:
 
     total_days = total_seconds / (60 * 60 * 24)
 
-    PHASE_LENGTH = 29.530588853
 
     phase = (total_days % PHASE_LENGTH) / PHASE_LENGTH
 

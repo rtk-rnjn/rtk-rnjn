@@ -9,7 +9,7 @@ import urllib.request
 from enum import StrEnum
 from io import BytesIO
 from textwrap import wrap
-from typing import Final, Literal, TypedDict
+from typing import Final, TypedDict
 
 from dotenv import load_dotenv
 from PIL import Image, ImageDraw, ImageFont
@@ -26,7 +26,7 @@ logger = logging.getLogger(__name__)
 NEWS_API_KEY = os.getenv("NEWS_API_KEY")
 
 
-BASE_URL: Final[Literal["https://newsapi.org"]] = "https://newsapi.org"
+BASE_URL: Final[str] = "https://newsapi.org"
 
 
 def _require_api_key() -> str:
@@ -164,7 +164,7 @@ def _load_font(size: int) -> ImageFont.FreeTypeFont | ImageFont.ImageFont:
         font = ImageFont.truetype("DejaVuSans.ttf", size)
         logger.debug("Loaded TrueType font at size %d", size)
         return font
-    except Exception:
+    except (OSError, ValueError):
         logger.warning("DejaVuSans.ttf not found, falling back to default font (size=%d)", size)
         return ImageFont.load_default()
 

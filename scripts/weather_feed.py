@@ -9,7 +9,7 @@ import urllib.request
 from datetime import datetime, timedelta, timezone
 from enum import StrEnum
 from io import BytesIO
-from typing import Final, Literal, TypedDict
+from typing import Final, TypedDict
 
 from dotenv import load_dotenv
 from PIL import Image, ImageDraw, ImageFont
@@ -26,7 +26,8 @@ logger = logging.getLogger(__name__)
 OPEN_WEATHER_MAP_KEY = os.getenv("OPEN_WEATHER_MAP_KEY")
 
 
-BASE_URL: Final[Literal["https://api.openweathermap.org"]] = "https://api.openweathermap.org"
+BASE_URL: Final[str] = "https://api.openweathermap.org"
+
 HEADERS = {
     "Content-Type": "application/json",
     "Accept": "application/json",
@@ -166,7 +167,7 @@ def _load_font(name: str, size: int) -> ImageFont.FreeTypeFont | ImageFont.Image
     for candidate in candidates:
         try:
             return ImageFont.truetype(candidate, size)
-        except Exception:
+        except (OSError, ValueError):
             pass
     logger.warning("No TrueType font found for size=%d, using default", size)
     return ImageFont.load_default()
