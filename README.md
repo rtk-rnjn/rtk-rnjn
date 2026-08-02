@@ -19,9 +19,9 @@ Building projects, automations, and experiments. This README refreshes itself wi
 ## Snapshot
 
 - Profile: [https://github.com/rtk-rnjn](https://github.com/rtk-rnjn)
-- Last update: 2026-08-02 22:46 UTC
-- Moon phase right now: 🌖 (68.62% through the lunar cycle)
-- Year progress (2026): 58.62% `██████████████░░░░░░░░░░`
+- Last update: 2026-08-02 23:51 UTC
+- Moon phase right now: 🌗 (68.77% through the lunar cycle)
+- Year progress (2026): 58.63% `██████████████░░░░░░░░░░`
 
 ## Weather Feed
 
