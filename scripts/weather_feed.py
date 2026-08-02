@@ -383,7 +383,7 @@ def create_weather_card(
 
 
 if __name__ == "__main__":
-    cities = ["London", "New York", "Tokyo"]
+    cities = ["Delhi", "Mumbai", "Bengaluru", "Chennai", "Kolkata", "Hyderabad"]
 
     try:
         for i, city in enumerate(cities):
